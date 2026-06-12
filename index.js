@@ -24,7 +24,7 @@ btn.forEach(boton => {
                 boton.textContent = 'Ganasteeeee'
                 bandera = true
             } else if (event.target.classList.contains('reinicio')) {
-                ganador = botonRandom()
+                // ganador = botonRandom()
                 location.reload()
             } else {
                 contadorIntentos()
@@ -32,7 +32,7 @@ btn.forEach(boton => {
                 boton.disabled = true
             }
         } else if (event.target.classList.contains('reinicio')) {
-            ganador = botonRandom()
+            // ganador = botonRandom()
             location.reload()
         } else {
             boton.disabled = true
